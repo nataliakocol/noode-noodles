@@ -1,12 +1,7 @@
-console.log('hello world!!');
-
-function square(n) {
-  return n*n;
-}
-
-for(var i = 0; i < 10; i ++) {
-  console.log(square(i));
-}
-
-var shout = require('./shout');
+shout = require('./shout');
 shout('omgggg');
+
+var mk = require('motivations');
+//console.log(mk);
+
+shout(mk[Math.floor (Math.random() * mk.length) ]);

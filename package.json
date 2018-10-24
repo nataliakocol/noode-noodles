@@ -1,0 +1,14 @@
+{
+  "name": "node-noodles",
+  "version": "1.0.0",
+  "description": "Playing around with node",
+  "main": "my-node-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natalia Kocol <natalia.kocol@ada.ac.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "motivations": "^1.1.2"
+  }
+}
