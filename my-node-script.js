@@ -1,5 +1,4 @@
 shout = require('./shout');
-shout('omgggg');
 
 var mk = require('motivations');
 //console.log(mk);
